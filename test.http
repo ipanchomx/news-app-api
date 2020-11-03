@@ -1,0 +1,31 @@
+### Noticias ###
+GET http://localhost:3000/api/noticias?q=bitcoin
+
+###
+
+GET http://localhost:3000/api/noticias
+
+### 
+
+GET http://127.0.0.1:3000/api/noticias?q=apple&from=2020-10-30&to=2020-10-30&sortBy=popularity
+
+### 
+
+GET http://127.0.0.1:3000/api/noticias?sources=mx
+
+### Top - Headlines ###
+GET http://localhost:3000/api/top-headlines?country=mx&category=business
+
+### 
+
+GET http://127.0.0.1:3000/api/top-headlines?q=apple&from=2020-10-30&to=2020-10-30&sortBy=popularity
+
+### Sources ###
+GET http://localhost:3000/api/sources?
+
+### 
+
+GET http://127.0.0.1:3000/api/sources?language=en
+### 
+
+GET http://127.0.0.1:3000/api/sourcesName
